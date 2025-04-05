@@ -31,3 +31,14 @@ show();
 console.log(functionVar); // Throws ReferenceError
 console.log(functionLet); // Throws ReferenceError
 console.log(functionConst); // Throws ReferenceError
+
+
+{
+    var satu = 'This is one';
+    let dua = 'This is two';
+    const tiga = 'This is three';
+
+    satu = 'This is one update';
+    dua = 'This is two update';
+    tiga = 'This is three update';
+}
